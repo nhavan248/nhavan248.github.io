@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Đăng ký tài khoản</legend>
+
+            <!-- Username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required minlength="4" maxlength="30">
+            <br><br>
+
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+
+            <!-- Tỉnh -->
+            <label for="province">Tỉnh:</label>
+            <select id="province" name="province">
+                <option value="hcm">HCM</option>
+                <option value="vungtau">Vũng Tàu</option>
+                <option value="binhduong">Bình Dương</option>
+                <option value="khac">Khác</option>
+            </select>
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required autofocus>
+            <br><br>
+
+            <!-- Website -->
+            <label for="website">Website:</label>
+            <input type="url" id="website" name="website">
+            <br><br>
+
+            <!-- Giới tính -->
+            <label>Giới tính:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Nam</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Nữ</label>
+            <br><br>
+
+            <!-- Ngày sinh -->
+            <label for="dob">Ngày sinh:</label>
+            <input type="date" id="dob" name="dob" min="2023-01-01">
+            <br><br>
+
+            <!-- Điểm -->
+            <label for="score">Điểm:</label>
+            <input type="number" id="score" name="score" min="0" max="10" step="0.5">
+            <br><br>
+
+            <!-- Màu yêu thích -->
+            <label for="favcolor">Màu yêu thích:</label>
+            <input type="color" id="favcolor" name="favcolor">
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Đăng ký">
+        </fieldset>
+    </form>
+</body>
+</html>

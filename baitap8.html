@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bảng sản phẩm và giải trí</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #e0f7fa;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .product-title {
+            text-align: center;
+            background-color: #b2ebf2;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .product-image {
+            text-align: center;
+        }
+        .product-image img {
+            width: 100px;
+            height: auto;
+        }
+        .entertainment-title {
+            text-align: center;
+            color: blue;
+            font-size: 28px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bảng giá sản phẩm -->
+    <table>
+        <tr>
+            <th colspan="3" class="product-title">Bang gia san pham</th>
+        </tr>
+        <tr>
+            <td><b>Noi san xuat</b></td>
+            <td>VietNam</td>
+            <td rowspan="3" class="product-image"><img src="https://lexshoes.com/images/201711/goods_img/299_P_1510977589798.jpg" alt="Product Image"></td>
+        </tr>
+        <tr>
+            <td><b>Gia tien</b></td>
+            <td>300.000d</td>
+        </tr>
+        <tr>
+            <td><b>Thoi gian bao hanh</b></td>
+            <td>6 thang</td>
+        </tr>
+    </table>
+
+    <!-- Mạng nghệ thuật và giải trí -->
+    <table>
+        <tr>
+            <th colspan="2" class="entertainment-title">Mang nghe thuat & giai tri</th>
+        </tr>
+        <tr>
+            <td><b>Phim</b></td>
+            <td><b>Ngày chiếu</b></td>
+        </tr>
+        <tr>
+            <td>Sherlock Holmes</td>
+            <td>Thứ hai</td>
+        </tr>
+        <tr>
+            <td>Lovejoy</td>
+            <td>Thứ hai</td>
+        </tr>
+    </table>
+
+</body>
+</html>
